@@ -2,9 +2,10 @@
     margin: 0;
     padding:0;
     font-family:cursive;
+    scroll-behavior: smooth;
 }
 
-
+/* images in the entire page  */
 img{
     max-width: 35%;
     height: 35%;
@@ -16,18 +17,49 @@ img{
     
 }
 
-
-
+/* MAIN PAGE STYLES */
+/* universal style of the mainPage */
 .mainPage{
-    
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    height:50vh;
+    /* max-block-size: 35%; */
+    /* max-height: 150dvh; */
     align-items:center;
+    background-color: rgb(190, 228, 165);
+    
 
 }
 
+/* universal style for h1's in the page */
 h1{
     text-align: center;
-
+    border-radius: 6vh;
+    padding: 10px;
+    vertical-align: middle;
     color: bisque;
-    background-color: blueviolet;
-    border-color: rgb(106, 30, 176);
+    background-color: rgb(147,92,199);
+    border: 3px, dotted, rgb(220, 237, 27);
+    /* margin-top: 25%; */
+    /* margin: 20% */
+    margin: 120px 40px;
+}
+
+/* style of line-1 author info */
+.authorInfo{
+    color: bisque;
+    background-color: rgb( 14 75 109);
+    text-align: center;
+    border: 3px cornflowerblue dashed;
+    border-radius: 3dvh;
+    margin: 20px 135px;
+    padding: 15px;
+    
+    vertical-align:center;
+}
+
+.devName{
+    text-transform: capitalize;
+    font-weight: 400
+    color:;
 }
